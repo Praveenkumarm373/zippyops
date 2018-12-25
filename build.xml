@@ -9,8 +9,7 @@
 <property name="dist.dir" location="dist" />
 
 <path id="class.path">
-<pathelement location="./lib/junit-4.10.jaro
-" />
+<pathelement location="./lib/junit-4.10.jar" />
 <pathelement location="./bin" />
 </path>
 
