@@ -8,7 +8,7 @@ sh 'ant -f build.xml -v'
 }
 stage('unit Tests') {
 steps {
-sh 'ant -f build.xml'
+sh 'ant -f test.xml -v'
 junit 'reports/result.xml'
 }
 }
