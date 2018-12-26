@@ -20,7 +20,7 @@ sh "cp dist/rectangle_${env.BUILD_NUMBER}.jar /var/www/html/rectangles/all/"
 stage('running on centos') {
 steps {
 sh "wget http://localhost/rectangles/all/rectangle_${env.BUILD_NUMBER}.jar"
-SH "java -jar rectangle_${env.BUILD_NUMBER}.jar 5 6 
+sh "java -jar rectangle_${env.BUILD_NUMBER}.jar 5 6 
 }
 post {
 always {
